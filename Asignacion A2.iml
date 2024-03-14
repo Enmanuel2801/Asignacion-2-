@@ -1,11 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
-    <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-    </content>
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-  </component>
-</module>
+public class Main {
+    public static void main(String[] args) {
+
+         String tipo = "Computadora";
+
+         final double TASA_DOLAR = 59.50;
+
+        boolean disponible = false;
+
+        final String mensaje_BIENVENIDA = "Bienvenido a este modulo";
+
+        int resultado = 4 * 9;
+
+        double monto = 775.49;
+        double montoconITBIS = monto * 1.18;
+        System.out.println("El monto con ITBIS es: " + montoconITBIS);
+    }
+}
